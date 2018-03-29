@@ -8,7 +8,7 @@ Add chinese.py to display several chinese characters created with zimo221.exe.
 Add chinese1.py to display inversed chinese characters also created with zimo221.exe.
 <br>
 Simple test with changing pcd8544_test.py to main.py and uploading it to esp32 with uPyLoader.
-##### Connections of esp32 and pcd8544 (nokia 5110):
+#### Connections of esp32 and pcd8544 (nokia 5110):
 VCC <--> 3.3 V
 <br>
 GND <--> GND
