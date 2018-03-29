@@ -2,7 +2,6 @@ import pcd8544
 from machine import Pin, SPI
 
 spi=SPI(baudrate=100000, polarity=1, phase=0, sck=Pin(14),mosi=Pin(12),miso=Pin(0)) #miso is not used
-#spi.init(baudrate=8000000, polarity=0, phase=0)
 cs = Pin(32)
 dc = Pin(33)
 rst = Pin(25)
